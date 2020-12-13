@@ -1,7 +1,5 @@
 '''
-This script is used for multiprocessing
-(1)alignment for paired end Illumina data
-(2)single call SNPs
+This script is used for multiprocessing alignment for paired end Illumina data using bwa-mem
 Author: Y.Lin
 Date: Jul 13, 2020 
 Usage: python [script.py] -h
