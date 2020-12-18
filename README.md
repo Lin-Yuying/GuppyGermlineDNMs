@@ -1,2 +1,2 @@
 ###### de-novo-mutations
-basic processes doing read mapping and genotyping
+basic processes for read mapping and genotyping
