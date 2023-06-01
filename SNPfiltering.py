@@ -178,7 +178,7 @@ def ReadDep(dep, avgDep):
 def ABTest(is_het,AD):
 	'''
 	*** if genotype in child is het, then do the AB test, 
-	*** else if homo, then the alt allele coverage need to be < 2.
+	*** else if homo, then the alt allele coverage need to be 0.
 	ABTest(True, AD)
 	'''
 	if len(AD) == 2:
@@ -191,7 +191,7 @@ def ABTest(is_het,AD):
 			else:
 				return False
 		else:
-			if min(int(refAD), int(altAD)) <= 2:
+			if min(int(refAD), int(altAD)) == 0:
 				return True
 			else:
 				return False
