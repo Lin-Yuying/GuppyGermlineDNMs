@@ -15,3 +15,29 @@ ARCS + LINKs
 ragtag
 Last
 ```
+3. Read alignment using BWA mem.
+```
+code
+```
+
+4. Genotyping and SNP filtering
+```
+code
+```
+
+5. Repeat identification
+```
+code
+```
+
+6. Callable Genome Size Calculation 
+```
+code
+```
+
+7. Simulation using bamSurgeon.
+```
+code
+```
+
+
