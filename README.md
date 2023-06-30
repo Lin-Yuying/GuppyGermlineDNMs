@@ -4,22 +4,22 @@ Scripts for Lin, Y., Darolti, I., van der Bijl, W., Morris, J., Mank, J. E. (202
 detailed tutorial to be finished
 
 1. Quality control for raw sequencing reads using [FastQC](https://github.com/s-andrews/FastQC) and [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic)
-  ```
-  python 01.QC_multi.py [-t THREADS] \
+   ```
+   python 01.QC_multi.py [-t THREADS] \
                         [-fq FASTQ_PATH] \
                         [-o OUTPUT] \
                         [-trim] \
                         [-qc]
-  ```
+   ```
 
 2. Reference genome reconstruction based on [female reference genome](http://uswest.ensembl.org/Poecilia_reticulata/Info/Index) using LongRanger, ARCS
-  ```
-  sh 02.refGenomeReconstruct.sh [seq] [ref]
-  ```
+   ```
+   sh 02.refGenomeReconstruct.sh [seq] [ref]
+   ```
 3. Read alignment using [BWA MEM](https://github.com/lh3/bwa).
-  ```
-  sh 03.alignment.sh [ref] [prefix]
-  ```
+   ```
+   sh 03.alignment.sh [ref] [prefix]
+   ```
 
 4. Genotyping and SNP filtering
 
