@@ -22,7 +22,9 @@ sh 03.alignment.sh [ref] [prefix]
 ```
 
 4. Genotyping and SNP filtering
+
    #(1) Genotyping using [BCFtools](https://samtools.github.io/bcftools/howtos/index.html) and [GATK](https://gatk.broadinstitute.org/hc/en-us).
+
    #(2) SNP filtering using [SNPfiltering.sh](./SNPfiltering.py) and [BAMfilter.py](./BAMfilter.py).
 ```
 sh 04.DNM.sh [father] [mother] [prefix] [ref]
