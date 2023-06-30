@@ -5,37 +5,39 @@ detailed tutorial to be finished
 
 1. Quality control for raw sequencing reads using [fastQC] and [Trimmomatics]
 ```
-code to be finished
+python3 01.QC_multi.py [-h] [-t THREADS] [-fq FASTQ_PATH] [-o OUTPUT] [-trim] [-qc]
 ```
 
 2. Reference genome reconstruction
 ```
-Longranger wgs 
-ARCS + LINKs
-ragtag
-Last
+sh 02.refGenomeReconstruct.sh [seq] [ref]
 ```
 3. Read alignment using BWA mem.
 ```
-code
+sh 03.alignment.sh [ref] [prefix]
 ```
 
 4. Genotyping and SNP filtering
 ```
+sh 04.DNM.sh [father] [mother] [prefix] [ref]
+```
+
+5. Genotype phasing and Kinship analysis
+```
+sh 05.phasingKinship.sh [fam] [ref]
+```
+
+6. Repeat identification
+```
+sh 05.phasingKinship.sh 
+```
+
+7. Callable Genome Size Calculation 
+```
 code
 ```
 
-5. Repeat identification
-```
-code
-```
-
-6. Callable Genome Size Calculation 
-```
-code
-```
-
-7. Simulation using bamSurgeon.
+8. Simulation using bamSurgeon.
 ```
 code
 ```
