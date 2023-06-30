@@ -12,16 +12,17 @@ python 01.QC_multi.py [-t THREADS] \
                       [-qc]
 ```
 
-2. Reference genome reconstruction
+2. Reference genome reconstruction based on [female reference genome](http://uswest.ensembl.org/Poecilia_reticulata/Info/Index) using LongRanger, ARCS
 ```
 sh 02.refGenomeReconstruct.sh [seq] [ref]
 ```
-3. Read alignment using BWA mem.
+3. Read alignment using [BWA MEM](https://github.com/lh3/bwa).
 ```
 sh 03.alignment.sh [ref] [prefix]
 ```
 
 4. Genotyping and SNP filtering
+(1) Genotyping using [BCFTtools](https://samtools.github.io/bcftools/howtos/index.html) and [GATK](https://gatk.broadinstitute.org/hc/en-us)
 ```
 sh 04.DNM.sh [father] [mother] [prefix] [ref]
 ```
