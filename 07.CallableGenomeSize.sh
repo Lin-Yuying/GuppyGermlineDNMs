@@ -1,6 +1,6 @@
 ref=$1
 prefix=$2
-# run GATK2 in a BP resolution 
+# run GATK4 in a BP resolution 
 gatk HaplotypeCaller \
 -R ${ref} \
 -ERC BP_RESOLUTION \
