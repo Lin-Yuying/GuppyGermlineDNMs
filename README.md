@@ -23,9 +23,9 @@ detailed tutorial to be finished
 
 4. Genotyping and SNP filtering
 
-   #(1) Genotyping using [BCFtools](https://samtools.github.io/bcftools/howtos/index.html) and [GATK](https://gatk.broadinstitute.org/hc/en-us).
+   #(1) Genotyping using [BCFtools](https://samtools.github.io/bcftools/howtos/index.html) and [GATK](https://gatk.broadinstitute.org/hc/en-us)
 
-   #(2) SNP filtering using [SNPfiltering.py](./SNPfiltering.py) and [BAMfilter.py](./BAMfilter.py).
+   #(2) SNP filtering using [SNPfiltering.py](./SNPfiltering.py) and [BAMfilter.py](./BAMfilter.py)
    ```
    sh 04.DNM.sh [father] [mother] [prefix] [ref]
    ```
@@ -49,7 +49,7 @@ detailed tutorial to be finished
    sh 07.CallableGenomeSize.sh [ref] [prefix]
    ```
 
-9. Simulation using bamSurgeon.
+9. Simulation using [bamSurgeon](https://github.com/adamewing/bamsurgeon).
    ```
    sh 08.simBamSurgeon.sh [ref] [prefix]
    ```
