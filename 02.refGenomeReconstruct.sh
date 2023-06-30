@@ -26,7 +26,7 @@ lastal -C2 ${seq} ${seq}.fa|last-split -fMAF+ > ${seq}_${seq}.maf
 
 last-split ${seq}_${seq}.maf | last-postmask > ${seq}_${seq}.2.maf 
 
-python3 dedupRef.py -i ${seq}_${seq}.2.maf -g ${seq}.dedup.fa
+python dedupRef.py -i ${seq}_${seq}.2.maf -g ${seq}.dedup.fa
 
 
 ######################################################
