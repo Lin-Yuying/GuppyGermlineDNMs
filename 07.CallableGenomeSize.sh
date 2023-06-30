@@ -14,6 +14,6 @@ gatk HaplotypeCaller \
 # calculate callable genome size 
 bcftools query -f "%CHROM\t%POS[\t%SAMPLE\t%AD]\n" ${prefix}.BP.vcf.gz> ${prefix}.stat.txt
 
-python3 callableGenomeSize.py ${prefix}.stat.txt outDep.txt > ${prefix}.call.txt
+python callableGenomeSize.py ${prefix}.stat.txt outDep.txt > ${prefix}.call.txt
 
 
