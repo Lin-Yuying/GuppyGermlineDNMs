@@ -1,4 +1,4 @@
-# This script generate trio-based genotype files for guppy DNM project.
+# This script generates trio-based genotype files for the guppy DNM project.
 # Author: Y.Lin 
 
 ######################################################
