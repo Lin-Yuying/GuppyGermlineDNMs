@@ -74,16 +74,16 @@ bcftools view -e 'QUAL <= 100 || MQBZ < -3 || RPBZ < -3 || RPBZ > 3 || FORMAT/SP
 ######################################################
 #3.individual-level filtering to both dataset
 ######################################################
-# AB allel, Depth, etc.
-python3 SNPfiltering.py ${prefix}.bcftools.hardfilter.vcf.gz outDep.txt pedigree.ped
-python3 SNPfiltering.py ${prefix}.gatk.hardfilter.vcf.gz outDep.txt pedigree.ped
+# AB allele, Depth, etc.
+python SNPfiltering.py ${prefix}.bcftools.hardfilter.vcf.gz outDep.txt pedigree.ped
+python SNPfiltering.py ${prefix}.gatk.hardfilter.vcf.gz outDep.txt pedigree.ped
 # remove snps with reads with gaps or without properly mapped mate pair
-python3 BAMfilter.py ${prefix}.AB_DP.bcftools.vcf.gz pedigree.ped
-python3 BAMfilter.py ${prefix}.AB_DP.gatk.vcf.gz pedigree.ped
+python BAMfilter.py ${prefix}.AB_DP.bcftools.vcf.gz pedigree.ped
+python BAMfilter.py ${prefix}.AB_DP.gatk.vcf.gz pedigree.ped
 
 
 ######################################################
-#4.intersect two dataset
+#4.intersect two datasets
 ######################################################
 bcftools isec ${prefix}.AB_DP_BAM.bcftools.vcf.gz ${prefix}.AB_DP_BAM.gatk.vcf.gz
 
