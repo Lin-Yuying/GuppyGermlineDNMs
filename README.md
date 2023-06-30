@@ -32,7 +32,7 @@ sh 05.phasingKinship.sh [fam] [ref]
 sh 06.repeatAnnotation.sh [prefix] [output] [ref] [genomeSize]
 ```
 
-7. Callable Genome Size Calculation 
+7. Callable genome size calculation 
 ```
 sh 07.CallableGenomeSize.sh [ref] [prefix]
 ```
