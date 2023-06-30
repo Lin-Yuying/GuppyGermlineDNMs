@@ -29,17 +29,17 @@ sh 05.phasingKinship.sh [fam] [ref]
 
 6. Repeat identification
 ```
-sh 05.phasingKinship.sh 
+sh 06.repeatAnnotation.sh [prefix] [output] [ref] [genomeSize]
 ```
 
 7. Callable Genome Size Calculation 
 ```
-code
+sh 07.CallableGenomeSize.sh [ref] [prefix]
 ```
 
 8. Simulation using bamSurgeon.
 ```
-code
+sh 08.simBamSurgeon.sh [ref] [prefix]
 ```
 
 
