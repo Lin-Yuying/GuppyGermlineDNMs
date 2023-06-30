@@ -5,7 +5,7 @@ detailed tutorial to be finished
 
 1. Quality control for raw sequencing reads using [fastQC] and [Trimmomatics]
 ```
-python3 01.QC_multi.py [-h] [-t THREADS] [-fq FASTQ_PATH] [-o OUTPUT] [-trim] [-qc]
+python 01.QC_multi.py [-h] [-t THREADS] [-fq FASTQ_PATH] [-o OUTPUT] [-trim] [-qc]
 ```
 
 2. Reference genome reconstruction
