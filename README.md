@@ -3,7 +3,7 @@ Scripts for Lin, Y., Darolti, I., van der Bijl, W., Morris, J., Mank, J. E. (202
 
 detailed tutorial to be finished
 
-1. Quality control for raw sequencing reads using [fastQC] and [Trimmomatics]
+1. Quality control for raw sequencing reads using [FastQC](https://github.com/s-andrews/FastQC) and [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic)
 ```
 python 01.QC_multi.py [-h] [-t THREADS] [-fq FASTQ_PATH] [-o OUTPUT] [-trim] [-qc]
 ```
