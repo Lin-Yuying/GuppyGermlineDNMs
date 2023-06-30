@@ -12,7 +12,7 @@ detailed tutorial to be finished
                         [-qc]
    ```
 
-2. Reference genome reconstruction based on [female reference genome](http://uswest.ensembl.org/Poecilia_reticulata/Info/Index) using [LongRanger](https://support.10xgenomics.com/genome-exome/software/pipelines/latest/what-is-long-ranger), [ARCS](https://github.com/bcgsc/arcs)
+2. Reference genome reconstruction based on [female reference genome](http://uswest.ensembl.org/Poecilia_reticulata/Info/Index) using [LongRanger](https://support.10xgenomics.com/genome-exome/software/pipelines/latest/what-is-long-ranger), [LAST](https://gitlab.com/mcfrith/last/), [ARCS](https://github.com/bcgsc/arcs) and [RagTag](https://github.com/malonge/RagTag).
    ```
    sh 02.refGenomeReconstruct.sh [seq] [ref]
    ```
