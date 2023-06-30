@@ -26,28 +26,28 @@ detailed tutorial to be finished
    #(1) Genotyping using [BCFtools](https://samtools.github.io/bcftools/howtos/index.html) and [GATK](https://gatk.broadinstitute.org/hc/en-us).
 
    #(2) SNP filtering using [SNPfiltering.sh](./SNPfiltering.py) and [BAMfilter.py](./BAMfilter.py).
-  ```
-  sh 04.DNM.sh [father] [mother] [prefix] [ref]
-  ```
+   ```
+   sh 04.DNM.sh [father] [mother] [prefix] [ref]
+   ```
   
-  5. Genotype phasing and Kinship analysis
-  ```
-  sh 05.phasingKinship.sh [fam] [ref]
-  ```
+5. Genotype phasing and Kinship analysis
+   ```
+   sh 05.phasingKinship.sh [fam] [ref]
+   ```
 
 6. Repeat identification
-  ```
-  sh 06.repeatAnnotation.sh [prefix] [output] [ref] [genomeSize]
-  ```
+   ```
+   sh 06.repeatAnnotation.sh [prefix] [output] [ref] [genomeSize]
+   ```
 
 7. Callable genome size calculation 
-  ```
-  sh 07.CallableGenomeSize.sh [ref] [prefix]
-  ```
+   ```
+   sh 07.CallableGenomeSize.sh [ref] [prefix]
+   ```
 
 8. Simulation using bamSurgeon.
-  ```
-  sh 08.simBamSurgeon.sh [ref] [prefix]
-  ```
+   ```
+   sh 08.simBamSurgeon.sh [ref] [prefix]
+   ```
 
 
