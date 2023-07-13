@@ -1,5 +1,5 @@
 ## GuppyGermlineDNMs
-Scripts for Lin, Y., Darolti, I., van der Bijl, W., Morris, J., Mank, J. E. (2023) Extensive variation in germline *de novo* mutations in *Poecilia reticulata*. Genome Research in press
+Scripts for Lin, Y., Darolti, I., van der Bijl, W., Morris, J., Mank, J. E. (2023) Extensive variation in germline *de novo* mutations in *Poecilia reticulata*. Genome Research https://doi.org/10.1101/gr.277936.123
 
 More detailed tutorial to be finished
 
