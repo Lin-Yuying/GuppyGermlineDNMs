@@ -1,6 +1,6 @@
 '''
 1. check directions of reads containing DNM 
-2. if there are indels in reads, if any, could be misaligned reads
+2. if there are any indels in reads, could be misaligned reads
 Author: Y.Lin
 '''
 
